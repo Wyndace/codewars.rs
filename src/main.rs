@@ -1,6 +1,6 @@
 mod tasks;
 
 fn main() {
-    println!("{:?}", tasks::split_strings::solution("abcdef"));
-    println!("{:?}", tasks::split_strings::solution(("abcdefg")));
+    println!("{}", tasks::replace_with_alphabet_position::alphabet_position("The sunset sets at twelve o' clock."));
+    println!("{}", tasks::replace_with_alphabet_position::alphabet_position("The narwhal bacons at midnight."));
 }
