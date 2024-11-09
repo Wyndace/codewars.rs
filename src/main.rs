@@ -1,5 +1,6 @@
 mod tasks;
 
 fn main() {
-    println!("{}", tasks::summation::summation(8));
+    println!("{:?}", tasks::split_strings::solution("abcdef"));
+    println!("{:?}", tasks::split_strings::solution(("abcdefg")));
 }

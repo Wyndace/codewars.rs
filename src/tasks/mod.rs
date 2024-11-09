@@ -6,3 +6,4 @@ pub(crate) mod hello_world;
 pub(crate) mod smallest_int;
 pub(crate) mod reversed_strings;
 pub(crate) mod summation;
+pub(crate) mod split_strings;
