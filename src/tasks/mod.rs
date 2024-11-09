@@ -4,3 +4,4 @@ pub(crate) mod counting_sheep;
 pub(crate) mod remove_exclamation_marks;
 pub(crate) mod hello_world;
 pub(crate) mod smallest_int;
+pub(crate) mod reversed_strings;
