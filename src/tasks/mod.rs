@@ -1,11 +1,5 @@
-pub(crate) mod traffic_light;
-pub(crate) mod rock_paper_scissors;
-pub(crate) mod counting_sheep;
-pub(crate) mod remove_exclamation_marks;
-pub(crate) mod hello_world;
-pub(crate) mod smallest_int;
-pub(crate) mod reversed_strings;
-pub(crate) mod summation;
-pub(crate) mod split_strings;
-pub(crate) mod replace_with_alphabet_position;
-pub(crate) mod persistent_burger;
+mod r6kyu;
+mod r8kyu;
+
+pub use r6kyu::*;
+pub use r8kyu::*;

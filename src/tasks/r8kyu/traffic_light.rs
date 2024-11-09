@@ -8,7 +8,7 @@ enum TrafficLightState {
 }
 
 impl TrafficLightState {
-    pub(crate) fn next(&self) -> TrafficLightState {
+    pub fn next(&self) -> TrafficLightState {
         match self {
             TrafficLightState::Green => TrafficLightState::Yellow,
             TrafficLightState::Yellow => TrafficLightState::Red,
