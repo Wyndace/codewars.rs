@@ -8,3 +8,4 @@ pub(crate) mod reversed_strings;
 pub(crate) mod summation;
 pub(crate) mod split_strings;
 pub(crate) mod replace_with_alphabet_position;
+pub(crate) mod persistent_burger;
